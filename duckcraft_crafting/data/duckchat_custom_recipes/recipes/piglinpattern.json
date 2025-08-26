@@ -1,0 +1,19 @@
+﻿{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:porkchop"
+        },
+		{
+            "item": "minecraft:paper"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
+    "result": {
+        "item": "minecraft:piglin_banner_pattern",
+        "count": 1
+    },
+    "group": "pig_things"
+}

@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Go Web Go",
+        "description": "9 strings to painstakingly craft a web",
+        "icon": {
+            "item": "minecraft:cobweb"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "webcraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:cobweb"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:glowdust"
+}

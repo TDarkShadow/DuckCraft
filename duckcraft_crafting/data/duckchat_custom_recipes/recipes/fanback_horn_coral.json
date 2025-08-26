@@ -1,0 +1,13 @@
+﻿{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:horn_coral_fan"
+        }
+    ],
+    "result": {
+        "item": "minecraft:horn_coral",
+        "count": 1
+    },
+    "group": "fan_coral"
+}

@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Alternative Ink",
+        "description": "Charcoal and white dye, makes sense right?",
+        "icon": {
+            "item": "minecraft:black_dye"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "inkcraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:ink"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:root"
+}

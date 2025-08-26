@@ -1,0 +1,26 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#/#",
+        "#G#",
+        "#H#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone_wall"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "G": {
+            "item": "minecraft:golden_helmet"
+        },
+        "H": {
+            "item": "minecraft:gold_nugget"
+        }
+    },
+    "result": {
+        "item": "minecraft:bell",
+        "count": 1
+    }
+}

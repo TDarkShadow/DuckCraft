@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "This song is Boar-ing",
+        "description": "Gold block in the middle, alternate 4 porkchops and 4 netherrack to make this disc",
+        "icon": {
+            "item": "minecraft:music_disc_pigstep"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pigstepcraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:pigdisc"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:snoutbanner"
+}

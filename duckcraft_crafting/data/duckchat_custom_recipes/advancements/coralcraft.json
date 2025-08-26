@@ -1,0 +1,47 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Coral Crazy",
+        "description": "Rare coral? no problem with 3 bonemeal and dye",
+        "icon": {
+            "item": "minecraft:tube_coral"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "coral": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:brain_coral"
+            }
+        },
+        "coral2": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:bubble_coral"
+            }
+        },
+        "coral3": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:fire_coral"
+            }
+        },
+        "coral4": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:horn_coral"
+            }
+        },
+        "coral5": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:tube_coral"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:waterwet"
+}

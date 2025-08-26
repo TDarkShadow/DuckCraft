@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "For whom it tolls...",
+        "description": "3 Cobblestone walls on the left and right, stick on the top center, gold helmet in the center middle, and a gold nugget in the bottom middle",
+        "icon": {
+            "item": "minecraft:bell"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bellcraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:bell"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:root"
+}

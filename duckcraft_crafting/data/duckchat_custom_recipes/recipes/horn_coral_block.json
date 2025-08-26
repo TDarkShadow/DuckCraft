@@ -1,0 +1,17 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "tag": "duckchat_custom_recipes:horn_coral_blocks"
+        }
+    },
+    "result": {
+        "item": "minecraft:horn_coral_block",
+        "count": 1
+    },
+    "group": "coral_block"
+}

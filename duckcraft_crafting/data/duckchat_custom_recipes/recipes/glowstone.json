@@ -1,0 +1,19 @@
+﻿{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:redstone"
+        },
+		{
+            "item": "minecraft:netherrack"
+        },
+        {
+            "item": "minecraft:yellow_dye"
+        }
+    ],
+    "result": {
+        "item": "minecraft:glowstone_dust",
+        "count": 1
+    },
+    "group": "alt_needs"
+}

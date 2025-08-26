@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "What in Carnation!?",
+        "description": "Glow Berries in the center, 4 big drip leaves in the corners, and 4 peony flowers for this ... ah, ah... Ahchoo!",
+        "icon": {
+            "item": "minecraft:spore_blossom"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "sporecraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:spore_blossom"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:root"
+}

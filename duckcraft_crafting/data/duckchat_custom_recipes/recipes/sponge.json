@@ -1,0 +1,23 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#D#",
+        "DED",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:pufferfish"
+        },
+        "D": {
+            "item": "minecraft:slime_ball"
+        },
+        "E": {
+            "item": "minecraft:gold_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:sponge",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Shard ain't hard",
+        "description": "Lime? Cyan? A bit of kelp? and some cobble?",
+        "icon": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "shardcraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:prisma_shard"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:waterwet"
+}

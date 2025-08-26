@@ -1,0 +1,47 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Coral-copia",
+        "description": "4 coral to make these colorful coral blocks",
+        "icon": {
+            "item": "minecraft:bubble_coral_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "coralblock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:brain_coral_block"
+            }
+        },
+        "coralblock2": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:bubble_coral_block"
+            }
+        },
+        "coralblock3": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:fire_coral_block"
+            }
+        },
+        "coralblock4": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:horn_coral_block"
+            }
+        },
+        "coralblock5": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:tube_coral_block"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:coralcraft"
+}

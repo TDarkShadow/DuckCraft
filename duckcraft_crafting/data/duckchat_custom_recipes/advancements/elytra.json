@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Thank you for flying Duck Chat Airlines",
+        "description": "2 phantom membranes on the left, 2 phantom membranes on the right, and 3 stick across the top",
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "elytracraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:elytra"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:root"
+}

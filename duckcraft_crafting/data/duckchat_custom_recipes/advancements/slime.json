@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "A Major slime-related psychokinetic event",
+        "description": "This gooey concoction is crafted by kelp, rotten flesh, seagrass, bone, and lime dye ",
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "slimecraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:slimeball"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:web"
+}

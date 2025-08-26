@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Pig-ture Perfect",
+        "description": "Paper, porkchop, and a gold ingot to make this pattern",
+        "icon": {
+            "item": "minecraft:piglin_banner_pattern"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "snoutcraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:piglinpattern"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:gildedstone"
+}

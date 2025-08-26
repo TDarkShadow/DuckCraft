@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "A heart to heart",
+        "description": "4 diamonds and 4 shards with an eye of ender in the middle",
+        "icon": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "seaheartcraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:heart_of_sea"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:crystal"
+}

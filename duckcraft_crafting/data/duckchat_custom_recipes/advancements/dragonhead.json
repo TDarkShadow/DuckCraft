@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Seriously?! On that?!",
+        "description": "3 obsidian, 2 eyes of ender, a dragon egg nose, and 3 end rod teeth",
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dragonheadcraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:dragon_head"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:dragonegg"
+}

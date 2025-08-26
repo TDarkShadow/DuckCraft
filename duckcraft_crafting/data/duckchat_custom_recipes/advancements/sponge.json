@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Who Lives in a Pineapple?",
+        "description": "4 puffer fish, 4 slime balls, and a gold block in the center",
+        "icon": {
+            "item": "minecraft:sponge"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "spongecraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:sponge"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:crystal"
+}

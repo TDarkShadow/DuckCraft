@@ -1,0 +1,25 @@
+﻿{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:kelp"
+        },
+        {
+            "item": "minecraft:rotten_flesh"
+        },
+        {
+            "item": "minecraft:seagrass"
+        },
+        {
+            "item": "minecraft:bone"
+        },
+        {
+            "item": "minecraft:lime_dye"
+        }
+    ],
+    "result": {
+        "item": "minecraft:slime_ball",
+        "count": 2
+    },
+    "group": "alt_needs"
+}

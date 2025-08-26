@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "The shell game",
+        "description": "a popped chorus fruit on the top, left and right of a chest can craft one of these",
+        "icon": {
+            "item": "minecraft:shulker_shell"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "shulkercraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:shulker_shell"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:root"
+}

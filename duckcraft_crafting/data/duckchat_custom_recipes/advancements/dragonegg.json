@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "What a waste!",
+        "description": "3 obsidian, 2 dragon breath bottles, a block of diamond, and a nether star in the middle",
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dragoneggcraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:dragon_egg"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:root"
+}

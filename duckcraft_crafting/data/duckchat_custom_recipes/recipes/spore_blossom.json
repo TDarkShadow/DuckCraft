@@ -1,0 +1,23 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#P#",
+        "PGP",
+        "#P#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:big_dripleaf"
+        },
+        "P": {
+            "item": "minecraft:peony"
+        },
+        "G": {
+            "item": "minecraft:glow_berries"
+        }
+    },
+    "result": {
+        "item": "minecraft:spore_blossom",
+        "count": 1
+    }
+}

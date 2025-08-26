@@ -1,0 +1,23 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Listen. Do you smell that?",
+        "description": "Enclose blackstone in raw gold to craft this block",
+        "icon": {
+            "item": "minecraft:gilded_blackstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "gildedstonecraft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "duckchat_custom_recipes:gilded_blackstone"
+            }
+        }
+    },
+    "parent": "duckchat_custom_recipes:root"
+}
