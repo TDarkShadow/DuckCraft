@@ -1,20 +1,17 @@
-﻿{
-    "type": "crafting_shaped",
-    "pattern": [
-        "###",
-        "#D#",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:gold_block"
-        },
-        "D": {
-            "item": "minecraft:apple"
-        }
-    },
-    "result": {
-        "item": "minecraft:enchanted_golden_apple",
-        "count": 1
-    }
+{
+  "result": {
+    "id": "minecraft:enchanted_golden_apple",
+    "count": 1
+  },
+  "type": "crafting_shaped",
+  "pattern": [
+    "GIG",
+    "G#G",
+    "GGG"
+  ],
+  "key": {
+    "I": "minecraft:gold_ingot",
+    "G": "minecraft:gold_block",
+    "#": "minecraft:golden_apple"
+  }
 }

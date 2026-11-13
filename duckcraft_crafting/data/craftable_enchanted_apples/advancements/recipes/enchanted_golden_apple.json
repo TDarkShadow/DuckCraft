@@ -1,23 +1,36 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-    "display": {
-        "title": "The Ultimate Apple",
-        "description": "Gold blocks around an apple, awesomesauce!",
-        "icon": {
-            "item": "minecraft:enchanted_golden_apple"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "applecraft": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-                "recipe": "duckchat_custom_recipes:goldapple"
-            }
-        }
-    },
-    "parent": "duckchat_custom_recipes:root"
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_block_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:gold_block"
+					}
+				]
+			}
+		},
+		"has_golden_apple": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:golden_apple"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_block_gold",
+			"has_golden_apple"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"craftable_enchanted_apples:enchanted_golden_apple"
+		]
+	}
 }
